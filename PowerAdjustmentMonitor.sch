@@ -259,7 +259,7 @@ $EndComp
 Text HLabel 10100 3800 2    60   Output ~ 0
 3V3_MON
 Text HLabel 10100 3900 2    60   Output ~ 0
-5V5_MON
+5V_MON
 Text HLabel 10100 4000 2    60   Output ~ 0
 V+_ADJ_MON
 Text HLabel 10100 4100 2    60   Output ~ 0
