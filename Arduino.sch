@@ -30,13 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:BenchBudEE-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 8
 Title ""
-Date ""
+Date "6 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""

@@ -30,13 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:BenchBudEE-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title ""
-Date ""
+Date "6 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -65,10 +65,11 @@ S 7600 5800 1850 1250
 U 52EBE7E0
 F0 "Relay" 50
 F1 "Relay.sch" 50
-F2 "DIN+" I L 7600 6000 60 
-F3 "DIN-" I L 7600 6250 60 
-F4 "Relay+" I R 9450 6000 60 
-F5 "Relay-" I R 9450 6200 60 
+F2 "NC" B R 9450 6600 60 
+F3 "NO" B R 9450 6700 60 
+F4 "COM" B R 9450 6500 60 
+F5 "DIN+" I L 7600 6000 60 
+F6 "DIN-" I L 7600 6100 60 
 $EndSheet
 $Sheet
 S 2050 1150 1800 1150
