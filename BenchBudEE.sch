@@ -31,13 +31,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:BenchBudEE
 LIBS:BenchBudEE-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title ""
-Date "7 feb 2014"
+Date "8 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -83,10 +83,9 @@ S 7550 2600 1850 950
 U 52EBE838
 F0 "LED_Driver" 50
 F1 "LED_Driver.sch" 50
-F2 "En" I L 7550 2800 60 
-F3 "FREQ" I L 7550 3000 60 
 F4 "String+" I R 9400 2800 60 
 F5 "String-" O R 9400 3000 60 
+F6 "LED_EN_PWM" I L 7550 2800 60 
 $EndSheet
 $Sheet
 S 10150 1500 750  5000
