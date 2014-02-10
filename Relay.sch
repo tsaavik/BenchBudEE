@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 9
 Title ""
-Date "8 feb 2014"
+Date "10 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,9 +46,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 1950 3400 0    60   Input ~ 0
-DIN+
+RELAY+
 Text HLabel 1950 3700 0    60   Input ~ 0
-DIN-
+RELAY-
 $Comp
 L RELAY_SPDT K?
 U 1 1 52F3152B
@@ -60,16 +60,16 @@ F 3 "~" H 8750 2900 60  0000 C CNN
 	1    8750 2900
 	1    0    0    -1  
 $EndComp
-Text HLabel 9950 2850 2    60   BiDi ~ 0
-NC
-Text HLabel 9950 3050 2    60   BiDi ~ 0
-NO
+Text HLabel 9950 2850 2    60   Output ~ 0
+RELAY_NC
+Text HLabel 9950 3050 2    60   Output ~ 0
+RELAY_NO
 Wire Wire Line
 	9950 2850 9150 2850
 Wire Wire Line
 	9950 3050 9150 3050
-Text HLabel 9950 2650 2    60   BiDi ~ 0
-COM
+Text HLabel 9950 2650 2    60   Input ~ 0
+REALY_COM
 Wire Wire Line
 	8350 2950 8250 2950
 $Comp
