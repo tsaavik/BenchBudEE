@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 9
 Title ""
-Date "10 feb 2014"
+Date "13 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -277,17 +277,6 @@ Wire Wire Line
 	5400 3400 5150 3400
 Wire Wire Line
 	5900 3400 6100 3400
-$Comp
-L ARDUINO uC?
-U 1 1 52F847B6
-P 3950 4900
-F 0 "uC?" H 4700 4550 60  0000 C CNN
-F 1 "ARDUINO" H 3650 7350 60  0000 C CNN
-F 2 "~" H 3950 4900 60  0000 C CNN
-F 3 "~" H 3950 4900 60  0000 C CNN
-	1    3950 4900
-	1    0    0    -1  
-$EndComp
 Text HLabel 6100 5000 2    60   Output ~ 0
 FAN_MODE
 $Comp
@@ -333,4 +322,15 @@ Wire Wire Line
 	1850 3500 1600 3500
 Wire Wire Line
 	1600 3500 1600 3200
+$Comp
+L ARDUINO uC?
+U 1 1 52FCA476
+P 3950 4900
+F 0 "uC?" H 4700 4550 60  0000 C CNN
+F 1 "ARDUINO" H 3650 7350 60  0000 C CNN
+F 2 "~" H 3950 4900 60  0000 C CNN
+F 3 "~" H 3950 4900 60  0000 C CNN
+	1    3950 4900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
