@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title ""
-Date "10 feb 2014"
+Date "19 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -231,17 +231,11 @@ Wire Wire Line
 Wire Wire Line
 	3950 5600 7600 5600
 Wire Wire Line
-	3950 4100 7000 4100
+	3950 4100 7600 4100
 Wire Wire Line
-	7000 4100 7600 4100
+	3950 4200 7600 4200
 Wire Wire Line
-	3950 4200 7150 4200
-Wire Wire Line
-	7150 4200 7600 4200
-Wire Wire Line
-	7600 4300 7300 4300
-Wire Wire Line
-	7300 4300 3950 4300
+	3950 4300 7600 4300
 Wire Wire Line
 	5550 5150 5550 4400
 Wire Wire Line
