@@ -15,7 +15,10 @@ local.properties
 .classpath
 .settings/
 .loadpath
+
+#Kicad stuff
 *bak
+_autosave-BenchBudEE.kicad_pcb
 
 # External tool builders
 .externalToolBuilders/
