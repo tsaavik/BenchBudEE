@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 9
 Title ""
-Date "19 feb 2014"
+Date "21 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -137,10 +137,10 @@ F 6 "http://www.digikey.com/product-detail/en/LG%20R971-KN-1/475-1410-1-ND/18025
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR01
+L GND #PWR2
 U 1 1 52F318DB
 P 5800 5200
-F 0 "#PWR01" H 5800 5200 30  0001 C CNN
+F 0 "#PWR2" H 5800 5200 30  0001 C CNN
 F 1 "GND" H 5800 5130 30  0001 C CNN
 F 2 "" H 5800 5200 60  0000 C CNN
 F 3 "" H 5800 5200 60  0000 C CNN
@@ -184,10 +184,10 @@ F 3 "~" H 4750 2650 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR02
+L +12V #PWR1
 U 1 1 52F31A0A
 P 4750 2250
-F 0 "#PWR02" H 4750 2200 20  0001 C CNN
+F 0 "#PWR1" H 4750 2200 20  0001 C CNN
 F 1 "+12V" H 4750 2350 30  0000 C CNN
 F 2 "" H 4750 2250 60  0000 C CNN
 F 3 "" H 4750 2250 60  0000 C CNN
