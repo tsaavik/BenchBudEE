@@ -31,13 +31,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:BenchBudEE
 LIBS:BenchBudEE-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 9
 Title ""
-Date "21 feb 2014"
+Date "22 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -50,9 +50,11 @@ L CONN_12X2 P1
 U 1 1 52F47AD7
 P 2150 2650
 F 0 "P1" H 2150 3300 60  0000 C CNN
-F 1 "CONN_12X2" V 2150 2650 50  0000 C CNN
+F 1 "24 pin MiniFit JR" V 2150 2650 50  0000 C CNN
 F 2 "" H 2150 2650 60  0000 C CNN
 F 3 "" H 2150 2650 60  0000 C CNN
+F 4 "molex" H 2150 2650 60  0001 C CNN "MFG Name"
+F 5 "39-30-1240" H 2150 2650 60  0001 C CNN "MFG Part Number"
 	1    2150 2650
 	1    0    0    -1  
 $EndComp
