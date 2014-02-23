@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 9
 Title ""
-Date "22 feb 2014"
+Date "23 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -54,7 +54,7 @@ MISO
 Text HLabel 6100 2400 2    60   Output ~ 0
 SCLK
 Text HLabel 6100 3400 2    60   Output ~ 0
-ADC_CS_N
+~ADC_CS
 Text HLabel 6100 3000 2    60   Output ~ 0
 FAN_PWM
 Text HLabel 1400 4600 0    60   Input ~ 0
@@ -244,7 +244,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 3000 6100 3000
 Text HLabel 6100 3800 2    60   Output ~ 0
-DAC_CS_N
+~DAC_CS
 $Comp
 L R R22
 U 1 1 52F844DD
@@ -443,4 +443,38 @@ Wire Wire Line
 	1850 2900 950  2900
 Wire Wire Line
 	950  2900 950  2750
+$Comp
+L R R?
+U 1 1 530A36E5
+P 5650 4600
+F 0 "R?" V 5730 4600 40  0000 C CNN
+F 1 "R" V 5657 4601 40  0000 C CNN
+F 2 "~" V 5580 4600 30  0000 C CNN
+F 3 "~" H 5650 4600 30  0000 C CNN
+	1    5650 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 530A36EB
+P 5650 4400
+F 0 "R?" V 5730 4400 40  0000 C CNN
+F 1 "R" V 5657 4401 40  0000 C CNN
+F 2 "~" V 5580 4400 30  0000 C CNN
+F 3 "~" H 5650 4400 30  0000 C CNN
+	1    5650 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5150 4400 5400 4400
+Wire Wire Line
+	5400 4600 5150 4600
+Text HLabel 6100 4400 2    60   Output ~ 0
+~LDAC
+Text HLabel 6100 4600 2    60   Output ~ 0
+~SHDN
+Wire Wire Line
+	5900 4400 6100 4400
+Wire Wire Line
+	6100 4600 5900 4600
 $EndSCHEMATC
