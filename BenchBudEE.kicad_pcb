@@ -3,7 +3,7 @@
   (general
     (links 322)
     (no_connects 232)
-    (area 134.315999 96.850999 299.516001 160.451001)
+    (area 133.405999 72.303999 300.253517 185.125001)
     (thickness 1.6)
     (drawings 4)
     (tracks 0)
@@ -312,7 +312,7 @@
   )
 
   (module TE-SPDT (layer F.Cu) (tedit 53084658) (tstamp 53059CB6)
-    (at 269.621 110.998)
+    (at 269.621 157.734)
     (path /52EBE7E0/52F3152B)
     (fp_text reference K1 (at 4.572 -16.256) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -347,7 +347,7 @@
   )
 
   (module SOT23 (layer B.Cu) (tedit 5051A6D7) (tstamp 53059CC2)
-    (at 266.954 112.649 180)
+    (at 266.954 159.385 180)
     (tags SOT23)
     (path /52EBE7E0/52F31850)
     (fp_text reference Q1 (at 1.99898 0.09906 450) (layer B.SilkS)
@@ -381,7 +381,7 @@
   )
 
   (module SMA (layer F.Cu) (tedit 530597A6) (tstamp 53059CCE)
-    (at 258.572 113.919 90)
+    (at 258.572 160.655 90)
     (path /52EBE7E0/52F31AA3)
     (fp_text reference D2 (at 2.54 -3.81 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -406,7 +406,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 53059CDB)
-    (at 262.89 115.951 180)
+    (at 262.89 162.687 180)
     (path /52EBE7E0/53041E7B)
     (attr smd)
     (fp_text reference R5 (at 0 0.3175 180) (layer B.SilkS)
@@ -438,7 +438,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 53059CE8)
-    (at 274.447 99.822 90)
+    (at 274.447 146.558 90)
     (path /52EBE7E0/53041CE3)
     (attr smd)
     (fp_text reference R6 (at 0 0.3175 90) (layer B.SilkS)
@@ -470,7 +470,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 53059CF5)
-    (at 254.635 99.06 270)
+    (at 254.635 145.796 270)
     (path /52EBE7E0/52F31A44)
     (attr smd)
     (fp_text reference R1 (at 0 0.3175 270) (layer B.SilkS)
@@ -502,7 +502,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 53059D02)
-    (at 264.16 103.124 180)
+    (at 264.16 149.86 180)
     (path /52EBE7E0/52F319EA)
     (attr smd)
     (fp_text reference R4 (at 0 0.3175 180) (layer B.SilkS)
@@ -534,7 +534,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 53059D0F)
-    (at 262.89 113.538 180)
+    (at 262.89 160.274 180)
     (path /52EBE7E0/52F3195C)
     (attr smd)
     (fp_text reference R2 (at 0 0.3175 180) (layer B.SilkS)
@@ -566,7 +566,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 53059D1C)
-    (at 267.335 115.951 180)
+    (at 267.335 162.687 180)
     (path /52EBE7E0/52F3185F)
     (attr smd)
     (fp_text reference R3 (at 0 0.3175 180) (layer B.SilkS)
@@ -598,7 +598,7 @@
   )
 
   (module LED-0805 (layer F.Cu) (tedit 49DC4C0B) (tstamp 53059D57)
-    (at 263.779 109.474)
+    (at 263.779 156.21)
     (descr "LED 0805 smd package")
     (tags "LED 0805 SMD")
     (path /52EBE7E0/52F318C2)
@@ -673,7 +673,7 @@
   )
 
   (module 8-SMD (layer F.Cu) (tedit 53059232) (tstamp 53059D68)
-    (at 257.175 107.315)
+    (at 257.175 154.051)
     (path /52EBE7E0/52F3188A)
     (fp_text reference U1 (at 3.81 -11.938) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -717,7 +717,7 @@
   )
 
   (module SOT353 (layer F.Cu) (tedit 53079AE7) (tstamp 5306CBE9)
-    (at 284.226 150.876)
+    (at 287.401 117.475)
     (descr SOT353)
     (path /52EBE76F/5306CE6D)
     (attr smd)
@@ -759,7 +759,7 @@
   )
 
   (module SO14N (layer F.Cu) (tedit 42806FE5) (tstamp 5306CBB4)
-    (at 258.064 140.843)
+    (at 262.509 107.696)
     (descr "Module CMS SOJ 14 pins Large")
     (tags "CMS SOJ")
     (path /52EBE84E/52F26B24)
@@ -841,7 +841,7 @@
   )
 
   (module SM1206 (layer B.Cu) (tedit 42806E24) (tstamp 5306CB9A)
-    (at 257.7465 143.1925 90)
+    (at 262.1915 110.0455 90)
     (path /52EBE76F/52F15A92)
     (attr smd)
     (fp_text reference R40 (at 0 0 90) (layer B.SilkS)
@@ -872,7 +872,7 @@
   )
 
   (module SM1206 (layer B.Cu) (tedit 42806E24) (tstamp 5306CB8D)
-    (at 254.508 143.256 90)
+    (at 258.953 110.109 90)
     (path /52EBE76F/52F15A98)
     (attr smd)
     (fp_text reference R41 (at 0 0 90) (layer B.SilkS)
@@ -903,7 +903,7 @@
   )
 
   (module SM1206 (layer B.Cu) (tedit 42806E24) (tstamp 5306CB80)
-    (at 248.3485 143.256 270)
+    (at 252.7935 110.109 270)
     (path /52EBE76F/52F15B4F)
     (attr smd)
     (fp_text reference R39 (at 0 0 270) (layer B.SilkS)
@@ -934,7 +934,7 @@
   )
 
   (module SM1206 (layer B.Cu) (tedit 42806E24) (tstamp 5306CB73)
-    (at 251.5235 143.256 270)
+    (at 255.9685 110.109 270)
     (path /52EBE76F/52F15B55)
     (attr smd)
     (fp_text reference R38 (at 0 0 270) (layer B.SilkS)
@@ -965,7 +965,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 5306CA87)
-    (at 245.5545 148.717 270)
+    (at 249.9995 115.57 270)
     (path /52EBE76F/5306D774)
     (attr smd)
     (fp_text reference C5 (at 0 0.3175 270) (layer B.SilkS)
@@ -997,7 +997,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 5306CA79)
-    (at 243.205 148.717 270)
+    (at 247.65 115.57 270)
     (path /52EBE76F/5306D672)
     (attr smd)
     (fp_text reference C6 (at 0 0.3175 270) (layer B.SilkS)
@@ -1029,7 +1029,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 5306CA6B)
-    (at 258.191 134.6835 90)
+    (at 262.636 101.5365 90)
     (path /52EBE76F/5306D2E0)
     (attr smd)
     (fp_text reference C9 (at 0 0.3175 90) (layer B.SilkS)
@@ -1061,7 +1061,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 5306CA5D)
-    (at 255.0795 139.446)
+    (at 259.5245 106.299)
     (path /52EBE76F/5306D12D)
     (attr smd)
     (fp_text reference C10 (at 0 0.3175) (layer B.SilkS)
@@ -1093,7 +1093,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 5306CA4F)
-    (at 248.0945 132.7785 90)
+    (at 252.5395 99.6315 90)
     (path /52EBE76F/5306B914)
     (attr smd)
     (fp_text reference R46 (at 0 0.3175 90) (layer B.SilkS)
@@ -1125,7 +1125,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 5306CA41)
-    (at 245.5545 132.715 90)
+    (at 249.9995 99.568 90)
     (path /52EBE76F/5306B90E)
     (attr smd)
     (fp_text reference R45 (at 0 0.3175 90) (layer B.SilkS)
@@ -1157,7 +1157,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 5306CA33)
-    (at 284.226 150.876 90)
+    (at 287.782 117.856 90)
     (path /52EBE76F/5306B8F4)
     (attr smd)
     (fp_text reference C7 (at 0 0.3175 90) (layer B.SilkS)
@@ -1189,7 +1189,7 @@
   )
 
   (module SM0805 (layer F.Cu) (tedit 5091495C) (tstamp 5306CA25)
-    (at 242.951 144.78 180)
+    (at 247.396 111.633 180)
     (path /52EBE76F/5306B885)
     (attr smd)
     (fp_text reference C8 (at 0 -0.3175 180) (layer F.SilkS)
@@ -1221,7 +1221,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 5306CA09)
-    (at 261.4295 135.636 180)
+    (at 265.8745 102.489 180)
     (path /52EBE76F/52F15A76)
     (attr smd)
     (fp_text reference R42 (at 0 0.3175 180) (layer B.SilkS)
@@ -1253,7 +1253,7 @@
   )
 
   (module pin_array_3x2 (layer F.Cu) (tedit 42931587) (tstamp 5306C9ED)
-    (at 245.491 126.365 180)
+    (at 240.665 100.203 180)
     (descr "Double rangee de contacts 2 x 4 pins")
     (tags CONN)
     (path /52EBE76F/5306B91C)
@@ -1299,7 +1299,7 @@
   )
 
   (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 4565C520) (tstamp 5306C9DE)
-    (at 237.617 140.462 90)
+    (at 242.062 107.315 90)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /52EBE76F/53075F84)
@@ -1329,7 +1329,7 @@
   )
 
   (module SSOP20 (layer F.Cu) (tedit 48B5A104) (tstamp 5307A381)
-    (at 242.824 142.875 90)
+    (at 247.269 109.728 90)
     (descr "SSOP 20 pins")
     (tags "CMS SSOP SMD")
     (path /52EBE76F/5306B678)
@@ -1432,7 +1432,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 5307BF9D)
-    (at 243.713 142.24 270)
+    (at 248.158 109.093 270)
     (path /52EBE76F/5307B3DA)
     (attr smd)
     (fp_text reference R47 (at 0 0.3175 270) (layer B.SilkS)
@@ -1464,7 +1464,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 5307BFAA)
-    (at 284.226 148.082)
+    (at 287.147 114.935)
     (path /52EBE76F/5307B639)
     (attr smd)
     (fp_text reference R48 (at 0 0.3175) (layer B.SilkS)
@@ -1496,7 +1496,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 5307D1A7)
-    (at 242.951 132.7785 90)
+    (at 247.396 99.6315 90)
     (path /52EBE76F/52F15A8C)
     (attr smd)
     (fp_text reference R44 (at 0 0.3175 90) (layer B.SilkS)
@@ -1528,7 +1528,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 5307FE1D)
-    (at 254.762 135.763 180)
+    (at 259.207 102.616 180)
     (path /52EBE76F/52F15A7C)
     (attr smd)
     (fp_text reference R43 (at 0 0.3175 180) (layer B.SilkS)
@@ -1560,7 +1560,7 @@
   )
 
   (module 3pinPhoenixTerminalBlock (layer F.Cu) (tedit 5308466B) (tstamp 530849BB)
-    (at 296.799 111.125 90)
+    (at 296.926 158.115 90)
     (path /52EBE87D/5308394B)
     (fp_text reference P5 (at 12.319 1.397 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1603,7 +1603,7 @@
   )
 
   (module 12pinPhoenixConnector (layer F.Cu) (tedit 53084676) (tstamp 53084DA9)
-    (at 294.386 157.861 90)
+    (at 294.513 141.351 90)
     (path /52EBE87D/53083823)
     (fp_text reference P4 (at 42.545 3.175 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2526,7 +2526,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 53096468)
-    (at 252.349 99.06 90)
+    (at 252.349 145.796 90)
     (path /52EBE680/52F8F34C)
     (attr smd)
     (fp_text reference R27 (at 0 0.3175 90) (layer B.SilkS)
@@ -3148,7 +3148,7 @@
   )
 
   (module SOT23GDS (layer F.Cu) (tedit 50911E03) (tstamp 530A3C63)
-    (at 252.603 154.559)
+    (at 257.048 121.412)
     (descr "Module CMS SOT23 Transistore EBC")
     (tags "CMS SOT")
     (path /52EBE84E/52F82E27)
@@ -3183,7 +3183,7 @@
   )
 
   (module SMA (layer F.Cu) (tedit 530597A6) (tstamp 530A3C6F)
-    (at 271.907 149.352)
+    (at 276.352 116.205)
     (path /52EBE84E/52F82EC1)
     (fp_text reference D4 (at 2.54 -3.81) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3208,7 +3208,7 @@
   )
 
   (module SM1812 (layer B.Cu) (tedit 3D638E5E) (tstamp 530A3C7C)
-    (at 271.653 142.113)
+    (at 276.098 108.966)
     (tags "CMS SM")
     (path /52EBE84E/52F83066)
     (attr smd)
@@ -3241,7 +3241,7 @@
   )
 
   (module SM1206 (layer B.Cu) (tedit 42806E24) (tstamp 530A3C88)
-    (at 278.003 136.398)
+    (at 282.448 103.251)
     (path /52EBE84E/52F26B8E)
     (attr smd)
     (fp_text reference R10 (at 0 0) (layer B.SilkS)
@@ -3272,7 +3272,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 530A3C95)
-    (at 249.428 156.083 180)
+    (at 253.873 122.936 180)
     (path /52EBE84E/52F26DC7)
     (attr smd)
     (fp_text reference R9 (at 0 0.3175 180) (layer B.SilkS)
@@ -3304,7 +3304,7 @@
   )
 
   (module SO8N (layer F.Cu) (tedit 45127296) (tstamp 530A67CE)
-    (at 243.459 154.559 270)
+    (at 247.904 121.412 270)
     (descr "Module CMS SOJ 8 pins large")
     (tags "CMS SOJ")
     (path /52EBE84E/530A346F)
@@ -3362,7 +3362,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 530A67DB)
-    (at 269.24 145.796)
+    (at 273.685 112.649)
     (path /52EBE84E/530AAAE4)
     (attr smd)
     (fp_text reference C12 (at 0 0.3175) (layer B.SilkS)
@@ -3394,7 +3394,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 530A67E8)
-    (at 243.205 154.94 270)
+    (at 247.65 121.793 270)
     (path /52EBE84E/530AA941)
     (attr smd)
     (fp_text reference C11 (at 0 0.3175 270) (layer B.SilkS)
@@ -3426,7 +3426,7 @@
   )
 
   (module DPAK2 (layer F.Cu) (tedit 451BAACE) (tstamp 530A67FA)
-    (at 269.494 142.24)
+    (at 273.939 109.093)
     (descr "MOS boitier DPACK G-D-S")
     (tags "CMD DPACK")
     (path /52EBE84E/530A49DF)
@@ -3468,7 +3468,7 @@
   )
 
   (module DPAK2 (layer F.Cu) (tedit 451BAACE) (tstamp 530A680C)
-    (at 277.495 141.986)
+    (at 281.94 108.839)
     (descr "MOS boitier DPACK G-D-S")
     (tags "CMD DPACK")
     (path /52EBE84E/530A49C9)
@@ -4960,7 +4960,7 @@
   )
 
   (module SOD-323 (layer F.Cu) (tedit 530AB7BA) (tstamp 530AB82A)
-    (at 219.964 127.254 90)
+    (at 274.701 132.842 90)
     (path /52EBE838/52F72F21)
     (fp_text reference D3 (at 1.5 -3.1 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4984,7 +4984,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 530AB837)
-    (at 220.345 125.984 270)
+    (at 275.082 131.572 270)
     (path /52EBE838/52F72ECC)
     (attr smd)
     (fp_text reference C3 (at 0 0.3175 270) (layer B.SilkS)
@@ -5016,7 +5016,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 530AB844)
-    (at 222.631 125.984 270)
+    (at 277.368 131.572 270)
     (path /52EBE838/52F72EF9)
     (attr smd)
     (fp_text reference C4 (at 0 0.3175 270) (layer B.SilkS)
@@ -5048,7 +5048,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 530AB851)
-    (at 225.425 125.984 270)
+    (at 280.162 131.572 270)
     (path /52EBE838/52F72F95)
     (attr smd)
     (fp_text reference R8 (at 0 0.3175 270) (layer B.SilkS)
@@ -5079,7 +5079,7 @@
   )
 
   (module NR4012 (layer F.Cu) (tedit 530AB638) (tstamp 530AB857)
-    (at 226.695 124.587 270)
+    (at 281.432 130.175 270)
     (path /52EBE838/52F72F01)
     (fp_text reference L4 (at 1.4 -3.3 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5098,7 +5098,7 @@
   )
 
   (module SOT23_6 (layer F.Cu) (tedit 4ECF791C) (tstamp 53092A16)
-    (at 222.885 125.984)
+    (at 277.622 131.572)
     (path /52EBE838/52F721D4)
     (fp_text reference U2 (at 1.99898 0 90) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.0762)))
