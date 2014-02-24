@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/23/2014 3:26:31 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/23/2014 6:29:34 PM
 
 BeginCmp
 TimeStamp = /52EBE800/52F47B5E;
@@ -206,43 +206,57 @@ EndCmp
 BeginCmp
 TimeStamp = /52F44BE7/530A9A6C;
 Reference = D5;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23_DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F44BE7/530A9C3F;
 Reference = D6;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23_DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F44BE7/530A9FC3;
 Reference = D7;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23_DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F44BE7/530AA2B6;
 Reference = D8;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23_DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F44BE7/530A995C;
 Reference = D9;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23_DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F44BE7/530A9D57;
 Reference = D10;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23_DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F44BE7/530AB71B;
+Reference = D11;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23_DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F44BE7/530AB60E;
+Reference = D12;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23_DIODE;
 EndCmp
 
 BeginCmp
@@ -542,29 +556,29 @@ EndCmp
 BeginCmp
 TimeStamp = /52F44BE7/52F526F3;
 Reference = R28;
-ValeurCmp = RVAR;
-IdModule  = SM0805;
+ValeurCmp = 5K;
+IdModule  = EVUE3K;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F44BE7/52F51728;
 Reference = R29;
-ValeurCmp = R;
+ValeurCmp = 715;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F44BE7/530A7E5D;
 Reference = R30;
-ValeurCmp = R;
+ValeurCmp = 715;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F44BE7/530A8282;
 Reference = R31;
-ValeurCmp = RVAR;
-IdModule  = SM0805;
+ValeurCmp = 5k;
+IdModule  = EVUE3K;
 EndCmp
 
 BeginCmp
