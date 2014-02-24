@@ -1,6 +1,6 @@
-update=Fri 21 Feb 2014 12:35:39 PST
+update=2/23/2014 9:46:52 PM
 version=1
-last_client=kicad
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
@@ -46,14 +46,16 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=BenchBudEE
+[general]
+version=1
 [pcbnew]
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill=0.000000000000
-PadDrillOvalY=0.000000000000
-PadSizeH=1.193800000000
-PadSizeV=0.990600000000
+PadDrill=3.650000000000
+PadDrillOvalY=3.650000000000
+PadSizeH=3.650000000000
+PadSizeV=3.650000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -84,5 +86,3 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=BenchBudEE
-[general]
-version=1

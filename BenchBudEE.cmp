@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/23/2014 7:10:12 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/23/2014 9:57:06 PM
 
 BeginCmp
 TimeStamp = /52EBE800/52F47B5E;
@@ -263,7 +263,7 @@ BeginCmp
 TimeStamp = /52F44BE7/52F50F85;
 Reference = JP1;
 ValeurCmp = JUMPER;
-IdModule  = ;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp

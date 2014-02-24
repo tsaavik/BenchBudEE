@@ -853,4 +853,5 @@ Wire Wire Line
 Connection ~ 2500 7250
 Connection ~ 5150 5600
 Connection ~ 5150 7550
+Connection ~ 4050 4800
 $EndSCHEMATC
