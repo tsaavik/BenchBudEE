@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/23/2014 6:55:55 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/23/2014 7:10:12 PM
 
 BeginCmp
 TimeStamp = /52EBE800/52F47B5E;
@@ -17,14 +17,14 @@ EndCmp
 BeginCmp
 TimeStamp = /52EBE838/52F72ECC;
 Reference = C3;
-ValeurCmp = C;
+ValeurCmp = 1uF;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EBE838/52F72EF9;
 Reference = C4;
-ValeurCmp = C;
+ValeurCmp = 1uF;
 IdModule  = SM0805;
 EndCmp
 
@@ -192,8 +192,8 @@ EndCmp
 BeginCmp
 TimeStamp = /52EBE838/52F72F21;
 Reference = D3;
-ValeurCmp = DIODESCH;
-IdModule  = ;
+ValeurCmp = B0540WS-7;
+IdModule  = SOD-323;
 EndCmp
 
 BeginCmp
@@ -297,8 +297,8 @@ EndCmp
 BeginCmp
 TimeStamp = /52EBE838/52F72F01;
 Reference = L4;
-ValeurCmp = INDUCTOR;
-IdModule  = ;
+ValeurCmp = 22uH;
+IdModule  = NR4012;
 EndCmp
 
 BeginCmp
@@ -416,7 +416,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52EBE838/52F72F95;
 Reference = R8;
-ValeurCmp = R;
+ValeurCmp = 15;
 IdModule  = SM0805;
 EndCmp
 
