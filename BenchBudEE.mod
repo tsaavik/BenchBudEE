@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  2/23/2014 7:08:46 PM
+PCBNEW-LibModule-V1  2/23/2014 9:03:25 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -15,6 +15,7 @@ SMA
 SOD-323
 SOT23_DIODE
 TE-SPDT
+V2006B_Heatsink
 $EndINDEX
 $MODULE 12pinPhoenixConnector
 Po 0 0 0 15 5308457F 00000000 ~~
@@ -1064,4 +1065,31 @@ Ne 0 ""
 Po -2.032 -6.096
 $EndPAD
 $EndMODULE TE-SPDT
+$MODULE V2006B_Heatsink
+Po 0 0 0 15 530AD29A 00000000 ~~
+Li V2006B_Heatsink
+Sc 0
+AR 
+Op 0 0 0
+T0 8.9 -33.6 1 1 0 0.15 N V 21 N "V2006B Heatsink"
+T1 15.3 -1 1 1 0 0.15 N V 21 N "VAL**"
+DS 0 0 17.8 0 0.15 21
+DS 17.8 0 17.7 -36.8 0.15 21
+DS 17.7 -36.8 0 -36.8 0.15 21
+DS 0 -36.8 0 0 0.15 21
+$PAD
+Sh "" C 3.65 3.65 0 0 0
+Dr 3.65 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 8.9 -13.46
+$EndPAD
+$PAD
+Sh "" C 3.65 3.65 0 0 0
+Dr 3.65 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 8.9 -23.37
+$EndPAD
+$EndMODULE V2006B_Heatsink
 $EndLIBRARY
