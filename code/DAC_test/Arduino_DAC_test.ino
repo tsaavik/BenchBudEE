@@ -37,7 +37,7 @@ void loop() {
   }
 }
 
-// {{{ vimfold
+// MCP4801Write {{{
 void MCP4801Write(int value) {
   int wr_enable =0;
   int gain =1;
@@ -49,7 +49,7 @@ void MCP4801Write(int value) {
   Serial.print("Value: ");
   Serial.println(value);
   
-  float voltage =0;
+  float voltage = 0;
   voltage = 2.048/256 *(value);
   Serial.print("Voltage: ");
   Serial.println(voltage,4);
@@ -58,11 +58,12 @@ void MCP4801Write(int value) {
   
   Serial.print("Command: ");
   Serial.println(command, BIN);
-  MSB = ((command & 0XFF00) >> 8);
+
+  MSB = highByte(command); // Same as ((command & 0xFF00) >> 8 )
+  LSB = lowByte(command);  // Same aS  (command & 0x00FF)
+
   Serial.print("MSB: ");
   Serial.println(MSB, BIN);
- 
-  LSB = ((command & 0X00FF)) ;
   Serial.print("LSB: ");
   Serial.println(LSB, BIN);
   
