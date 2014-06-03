@@ -12,16 +12,16 @@ int relay = 6;
 
 // the setup routine runs once when you press reset:
 void setup() {
-  pinMode(led, OUTPUT);     // initialize the digital pin as output.
-  pinMode(relay, OUTPUT);   // initialize the digital pin as output.
+  pinMode(led, OUTPUT);      // initialize the digital pin as output.
+  pinMode(relay, OUTPUT);    // initialize the digital pin as output.
 }
 
 // the loop routine runs over and over again forever:
 void loop() {
   digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(relay, HIGH); // turn the relay on
-  delay(msdelay);               // wait for a second
+  delay(msdelay);            
   digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
-  digitalWrite(relay, LOW);    // turn the relay off by making the voltage LOW
-  delay(msdelay);               // wait for a second
+  digitalWrite(relay, LOW);  // turn the relay off
+  delay(msdelay);            
 }
