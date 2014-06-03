@@ -6,9 +6,9 @@
   Pin 13 has an LED connected on most Arduino boards.
 */
 
-int msdelay = 5000;
-int led = 13;
-int relay = 6;
+const int msdelay = 5000;
+const int led = 13;
+const int relay = 6;
 
 // the setup routine runs once when you press reset:
 void setup() {
