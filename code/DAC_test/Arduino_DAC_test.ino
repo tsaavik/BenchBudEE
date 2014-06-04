@@ -2,7 +2,7 @@
 // Modified David Mcanulty 2014
 //
 // Pin 2 on BenchBuddEE shield is DAC shutdown
-// Pin 3 on BenchBuddEE shield is DAC Enable
+// Pin 3 on BenchBuddEE shield is DAC changes-Enable
 // Pin 7 on BenchBuddEE shield is DAC Chip Select
 
 #include <SPI.h>
